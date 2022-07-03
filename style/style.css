@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply p-3 border-2 border-blue-400 text-blue-400 rounded-lg my-3 w-full block hover:text-white hover:border-yellow-500 hover:bg-yellow-500
+}
+.title{
+    @apply font-bold text-xl text-blue-800
+}
+.btn-correct{
+    @apply text-white text-white border-green-700 bg-green-700 !important
+}
+.btn-error{
+    @apply text-white bg-red-700 border-red-700 !important
+}
